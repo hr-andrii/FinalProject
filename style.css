@@ -1,0 +1,55 @@
+html
+{
+background-color:rgb(99, 98, 98) ;
+}
+body
+{
+background-color: white;
+border-radius: 10px;
+width: 1600px;
+margin-left: auto;
+margin-right: auto;
+}
+header
+{
+    background-color: blue;
+    border-radius: 10px;
+    font-family: Century;
+    height: 60px;
+}
+.headername
+{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.menu
+{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-left: 770px;
+    margin-top: -18px;
+    background-color: rgb(99, 98, 98);
+}
+.spinner
+{
+    width: 1600px;
+    height: 400px;
+}
+.board
+{
+    background-color: blue;
+    border-radius: 5px;
+    font-family: Century;
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+footer
+{
+    background-color: blue;
+    font-family: Century;
+    height: 150px;
+    margin-top: auto;
+}
