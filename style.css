@@ -6,13 +6,12 @@ body
 {
 background-color: white;
 border-radius: 10px;
-width: 1600px;
 margin-left: auto;
 margin-right: auto;
 }
 header
 {
-    background-color: blue;
+    background-color: #19253b;
     border-radius: 10px;
     font-family: Century;
     height: 60px;
@@ -22,34 +21,99 @@ header
     margin-left: 25px;
     margin-top: 5px;
     font-size: 25px;
+    color: white;
 }
 .menu
 {
+    position: absolute;
     border-radius: 100px;
     width: 60px;
     height: 60px;
-    margin-left: 770px;
-    margin-top: -18px;
+    left: 50%;
+    margin-top: -35px;
     background-color: rgb(99, 98, 98);
+    position: relative;
 }
 .spinner
 {
-    width: 1600px;
+    width: 100%;
     height: 400px;
+    margin-top: -35px;
 }
 .board
 {
-    background-color: blue;
-    border-radius: 5px;
+    background-color: #19253b;
     font-family: Century;
     font-size: 20px;
-    height: 40px;
+    color: white;
+    height: 60px;
     margin-bottom: 20px;
+    margin-top: -25px;
+}
+.catalog
+{
+    display: inline-block;
+    position: relative;
+}
+.filter
+{
+    margin-top: 5px;
+}
+.category_main
+{
+    margin-left: 5%;
+    margin-bottom:20px;
+}
+.category
+{
+    border: 1px solid white;
+    width: 30%;
+    left: 10%;
+    margin-left: 5%;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.category:hover{
+    border: 1px solid #19253b;
+}
+.photo
+{
+    width: auto;
+}
+.contact
+{
+    display: inline-block;
+}
+.clients
+{
+    margin-left: 60%;
+}
+.footer_contact
+{
+    font-size: 20px;
+    color: white;
+    margin-left: 45%;
+    font-family: Century;
+}
+.img_contact
+{
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: -20px;
+}
+.footer_clients
+{
+    font-size: 20px;
+    color: white;
+    font-family: Century;
+    margin-top: -160px;
 }
 footer
 {
-    background-color: blue;
+    background-color: #19253b;
     font-family: Century;
-    height: 150px;
-    margin-top: auto;
+    height: 200px;
 }
