@@ -8,11 +8,21 @@
     </head>
     <body>
         <header>
-             <div class="headerdiv">
-                 <h1 class="headername">Shadow Guard</h1>
-             </div>
+                 <h1 class="headername"><a href="index.html">Shadow Guard</a></h1>
         </header>
-        <button class="menu"></button>
+        <button class="menu">
+            <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+            <li><a class="menu__item" href="#">Home</a></li>
+			<li><a class="menu__item" href="#category_main">Catalog</a></li>
+			<li><a class="menu__item" href="#footer_scroll">Contact us</a></li>
+    </ul>
+  </div>
+        </button>
         <img class="spinner" src="img/js_banner.png" alt="Js spinner">
         <div class="board">
             <p class="catalog">Catalog
@@ -20,7 +30,7 @@
                 <img class="filter" src="img/filter_search.png" alt="fiter_of_search">
             </p>
         </div>
-        <div class="category_main">
+        <div id="category_main">
             <div class="category">
                 <p class="photo"><img src="img/cameras.jpg" alt="security_cams_category" /></p>
                 <p>Security cameras</p>
@@ -46,7 +56,7 @@
                 <p>Security cameras</p>
             </div>
         </div>
-        <footer>
+        <footer id="footer_scroll">
             <div class="contact">
                 <p class="footer_contact"> Contact us: </p>
                 <p class="img_contact"><img src="img/contact_us.png" alt="Our contact"></p>
