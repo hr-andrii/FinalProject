@@ -30,6 +30,10 @@ header nav .menu {
     padding: 0;
     list-style-type: none;
 }
+h3{
+    text-decoration: none;
+    color: black;
+}
 
 header nav .menu a {
     text-decoration: none;
@@ -260,6 +264,7 @@ footer
         left: 78%;
     }
 }
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
