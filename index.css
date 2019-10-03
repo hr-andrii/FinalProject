@@ -8,12 +8,12 @@
 }
 
 body {
-    max-width: 1600px;
+    max-width: 2000px;
     margin: auto;
 }
 
 
-header nav .logo {
+header nav .logo a {
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     text-decoration: none;
@@ -22,6 +22,7 @@ header nav .logo {
     text-align: left;
     color: var(--main-color);
     margin-top: 20px;
+    margin-left: 30px;
 }
 
 header nav .menu {
@@ -44,16 +45,6 @@ header nav .menu a {
     padding: 5px;
 }
 
-@media (min-width: 2000px) {
-    header nav {
-        display: flex;
-        align-items: center;
-    }
-
-    header nav .menu {
-        flex: 1;
-    }
-}
 .personal_client
 {
     margin-left: 450%;
@@ -152,6 +143,7 @@ article.product .product-buttons {
 .board
 {
     background-color: #19253b;
+    position: relative;
     font-family: Century;
     font-size: 20px;
     color: white;
@@ -159,10 +151,31 @@ article.product .product-buttons {
     margin-bottom: 20px;
     margin-top: -25px;
 }
-.catalog
+main .board .catalog
 {
     display: inline-block;
-    position: relative;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+main .board .search
+{
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    width: 210px;
+    margin-top: 17px;
+    height: 25px;
+    left: 80%;
+}
+main .board .filter
+{
+    display: inline-block;
+    position: absolute;
+    left: 93%;
+    margin-top: 17px;
+    height: 25px;
 }
 .filter
 {
@@ -296,7 +309,7 @@ transition-duration: .25s;
   width: 100%;
   height: 180px;
   margin: 0;
-  padding: 55px 0;
+  padding: 20px 0;
   list-style: none;
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
@@ -305,14 +318,20 @@ transition-duration: .25s;
 .menu__item {
   display: block;
   padding: 15px 12px;
-
   color: #333;
-
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600px;
   text-decoration: none;
+  margin-left: 20px;
   transition-duration: .25s;
+}
+.menu__logo{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 5px;
+    margin-left: 20px;
 }
 .menu__item:hover {
   background-color: #CFD8DC;
