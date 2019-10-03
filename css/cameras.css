@@ -14,6 +14,8 @@ body {
     margin: auto;
     background-color: white;
 }
+
+
 header nav .logo a {
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
@@ -66,6 +68,7 @@ article.product{
     border: 1px solid white;
     margin: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 article.product:hover{
     border: 1px solid rgb(0, 0, 0);
@@ -159,33 +162,84 @@ main .board .catalog
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 14px;
     margin-left: 30px;
+
 }
 main .board .search
 {
     display: inline-block;
-    position: absolute;
-    border-radius: 10px;
-    width: 210px;
-    margin-top: 17px;
-    height: 25px;
-    left: 80%;
+    width: 300px;
+    position: relative;
+    left: 75%;
 }
-main .board .filter
+main .board .search_place
 {
     display: inline-block;
     position: absolute;
-    left: 93%;
-    margin-top: 17px;
+    border-radius: 10px;
+    width: 80%;
     height: 25px;
+    margin-top: -20px;
 }
-.filter
+@media (max-width: 1550px)
 {
-    margin-top: 5px;
+    main .board .search
+    {
+        left: 70%;
+    }
 }
+@media (max-width: 1350px)
+{
+    main .board .search
+    {
+        left: 60%;
+    }
+}
+@media (max-width: 1150px)
+{
+    main .board .search
+    {
+        left: 50%;
+    }
+}
+@media (max-width: 1050px)
+{
+    main .board .search
+    {
+        left: 40%;
+        width: 400px;
+    }
+}
+@media (max-width: 900px)
+{
+    main .board .search
+    {
+        left: 30%;
+        width: 350px;
+    }
+}
+@media (max-width: 700px)
+{
+    main .board .search
+    {
+        left: 20%;
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    main .board .search
+    {
+        left: 10%;
+        width: 150px;
+    }
+}
+
 #category_main
 {
     margin-left: 5%;
     margin-bottom:20px;
+    text-decoration: none;
 }
 .category
 {
@@ -193,6 +247,7 @@ main .board .filter
     width: 30%;
     left: 10%;
     margin-left: 5%;
+    text-decoration: none;
     margin: 0 10px 10px 0;
     padding: 10px 0;
     border-radius: 5px;
