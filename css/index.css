@@ -95,13 +95,6 @@ article.product .product-buttons {
     }
 }
 
-@media (min-width: 980px) {
-    .product-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-
 .button {
     display: inline-block;
     padding: 0.35em 1.2em;
@@ -260,29 +253,39 @@ main .board .search_place
 {
     display: inline-block;
 }
-.clients
-{
-    margin-left: 60%;
-}
 .footer_contact
 {
     font-size: 20px;
     color: white;
-    margin-left: 45%;
+    margin-left: 175px;
     font-family: Century;
+}
+.img_contact p
+{
+    display: inline-block;
 }
 .img_contact
 {
     display: inline-block;
-    margin-left: 45%;
-    margin-top: -20px;
-}
-.footer_clients
-{
-    font-size: 20px;
     color: white;
-    font-family: Century;
-    margin-top: -160px;
+    margin-left: 170px;
+}
+footer .contact .img_contact .phone
+{
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer .contact .img_contact .mail
+{
+    position: absolute;
+    margin-top: 20px;
+    text-decoration-color: var(--main-color);
+    margin-left: 20px;
+    text-decoration: none;
 }
 footer
 {
