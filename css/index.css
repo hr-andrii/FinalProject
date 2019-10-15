@@ -93,6 +93,9 @@ article.product .name_of_category{
 .board
 {
     background-color: #19253b;
+    background-image:-webkit-linear-gradient(top, #19253b, #2f3337);
+	background-image:-moz-linear-gradient(top, #19253b, #2f3337);
+	background-image:linear-gradient(top, #19253b, #2f3337);
     position: relative;
     font-family: Century;
     font-size: 20px;
@@ -351,32 +354,46 @@ transition-duration: .25s;
 
 
 footer{
-	height: 245px;
+	height: 625px;
 	color:#ccc;
 	font-size:12px;
-
-	position:relative;
+	position: relative;
 	z-index:-2;
-
-	background-color:#31353a;
-
-	background-image:-webkit-linear-gradient(top, #31353a, #2f3337);
-	background-image:-moz-linear-gradient(top, #31353a, #2f3337);
-	background-image:linear-gradient(top, #31353a, #2f3337);
+	background-color: #19253b;
+	background-image:-webkit-linear-gradient(top, #19253b, #2f3337);
+	background-image:-moz-linear-gradient(top, #19253b, #2f3337);
+	background-image:linear-gradient(top, #19253b, #2f3337);
 }
 
 /* Set a width to the outermost UL and center it */
 
 footer > ul{
-	width:960px;
+	width: 100%;
 	position:fixed;
-	left:50%;
-	bottom:0;
-	margin-left:-480px;
+    margin: auto;
+	bottom: 0;
 	padding-bottom: 60px;
 	z-index:-1;
 }
-
+@media (min-width: 1024px) {
+    footer > ul {
+        width: 960px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 5px;
+        left:47%;
+        margin-left:-480px;
+    }
+    footer{
+	height: 245px;
+    }
+}
+@media (min-width: 750px) {
+    footer > ult {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.board
 /* The four columns of links */
 
 footer > ul > li{
