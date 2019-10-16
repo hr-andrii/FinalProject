@@ -10,7 +10,7 @@ html{
     background-color: rgb(146, 146, 146);
 }
 body {
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     background-color: white;
     position:relative;
@@ -77,6 +77,10 @@ article.product .name_of_category{
     text-align: center;
     color: black;
 }
+article.product .name_of_product{
+    text-align: center;
+    color: black;
+}
 
 @media (min-width: 320px) {
     .product-list {
@@ -137,7 +141,7 @@ main .board .search
     display: inline-block;
     width: 300px;
     position: relative;
-    left: 75%;
+    left: 25%;
 }
 main .board .search_place
 {
@@ -152,54 +156,71 @@ main .board .search_place
 {
     main .board .search
     {
-        left: 70%;
-    }
-}
-@media (max-width: 1350px)
-{
-    main .board .search
-    {
         left: 60%;
     }
 }
-@media (max-width: 1150px)
+
+@media (max-width: 1000px)
 {
     main .board .search
     {
-        left: 50%;
+        left: 47%;
     }
 }
-@media (max-width: 1050px)
+@media (max-width: 800px)
 {
     main .board .search
     {
         left: 40%;
-        width: 400px;
-    }
-}
-@media (max-width: 900px)
-{
-    main .board .search
-    {
-        left: 30%;
-        width: 350px;
-    }
-}
-@media (max-width: 700px)
-{
-    main .board .search
-    {
-        left: 20%;
-        width: 200px;
-    }
-}
 
-@media (max-width: 500px)
+    }
+}
+@media (max-width: 730px)
 {
     main .board .search
     {
-        left: 10%;
+        left: 35%;
+
+    }
+}
+@media (max-width: 650px)
+{
+    main .board .search
+    {
+        left: 26%;
+
+    }
+}
+@media (max-width: 580px)
+{
+    main .board .search
+    {
+        left: 18%;
+        width: 250px;
+    }
+}
+@media (max-width: 480px)
+{
+    main .board .search
+    {
+        left: 25%;
         width: 150px;
+    }
+}
+@media (max-width: 440px)
+{
+    main .board .search
+    {
+        left: 22%;
+        width: 150px;
+    }
+}
+@media (max-width: 380px)
+{
+    main .board .search
+    {
+        left: 2%;
+        width: 125px;
     }
 }
 
@@ -230,7 +251,16 @@ main .board .search_place
     border: 1px solid #19253b;
 }
 
-
+.bnt_buy{
+    border-radius: 8px;
+    height: 35px;
+    background-color: #19253b;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*--------------------------------           BURGER MENU          --------------------------------------*/
