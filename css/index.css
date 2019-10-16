@@ -10,7 +10,7 @@ html{
     background-color: rgb(146, 146, 146);
 }
 body {
-    max-width: 2000px;
+    max-width: 1300px;
     margin: auto;
     background-color: white;
     position:relative;
@@ -207,6 +207,9 @@ main .board .search_place
 {
     margin-left: 5%;
     margin-bottom:20px;
+    text-decoration: none;
+}
+#categories a{
     text-decoration: none;
 }
 .category
@@ -430,7 +433,7 @@ footer a.logo i{
 footer a.logo:before{
 	content: '';
 	display: inline-block;
-	background: url('../img/svg/sprite.png') no-repeat -19px -70px;
+	background: url('../img/sprite.png') no-repeat -19px -70px;
 	width: 48px;
 	height: 37px;
 	vertical-align: text-top;
