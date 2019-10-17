@@ -4,8 +4,9 @@
         <meta charset="utf-8">
         <title>Shadow Guard</title>
         <link rel="shortcut icon" href="img/logo.png" type="image/png">
-        <link href="css/index.css" rel="stylesheet">
         <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/index.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -32,8 +33,13 @@
         <main id="categories">
             <div class="board">
                 <p class="catalog">Catalog</p>
-                <div class="search">
-                    <input class="search_place" type="search" name="search" placeholder="Пошук">
+                <form class="form-search" action="/search/" target="_blank">
+                    <input type="hidden" name="searchid" value="808327">
+                    <input type="search" name="text" required placeholder="Search">
+                    <input type="image" src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png"/>
+                </form>
+                <div class="filter">
+                    <img src="img/svg/filter.svg" width="25px" height="25px" alt="filter" data-toggle="modal" data-target="#modalFilter">
                 </div>
             </div>
             <div class="product-list">
@@ -111,5 +117,30 @@
 				</li>
 			</ul>
 		</footer>
+        <div class="modal fade" id="modalFilter" tabindex="-1" role="dialog" aria-labelledby="modalFilterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalFilterTitle"> Filter </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="filter-body">
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
