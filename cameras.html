@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Shadow Guard</title>
+        <link rel="shortcut icon" href="img/logo.png" type="image/png">
+        <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="css/index.css" rel="stylesheet">
-        <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     </head>
     <body>
         <header>
@@ -13,6 +14,7 @@
                 <div class="logo">
                     <a href="index.html">Shadow Guard</a>
                 </div>
+                <img src="img/svg/delivery.svg" width="45px" height="45px" alt="filter" data-toggle="modal" data-target="#modalCart" alt="Cart">
                 <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
@@ -27,21 +29,25 @@
                 </div>
                 <div class="banner">
                 </div>
+            </div>
             </nav>
         </header>
         <main id="categories">
             <div class="board">
                 <p class="catalog">Catalog</p>
-                <div class="search">
-                    <input class="search_place" type="search" name="search" placeholder="Пошук">
-                </div>
+                <form class="form-search" action="/search/" target="_blank">
+                    <input type="hidden" name="searchid" value="808327">
+                    <input type="search" name="text" required placeholder="Search">
+                    <img src="img/svg/filter.svg" width="25px" height="25px" alt="filter" data-toggle="modal" data-target="#modalFilter">
+                    <input type="image" src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png"/>
+                </form>
             </div>
             <div class="product-list">
-                    <article class="product">
-                        <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                        <img src="img/categories/cameras.jpg" alt="Security Cameras">
-                        <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                        <button class="bnt_buy" >Add to cart</button>
+                <article class="product">
+                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
+                    <img src="img/categories/cameras.jpg" alt="Security Cameras">
+                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
+                    <button class="bnt_buy" >Add to cart</button>
                     </article>
                     <article class="product">
                         <h3 class="name_of_product">Lorex LNB8111-C </h3>
@@ -163,7 +169,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-primary">To order</button>
                     </div>
                 </div>
             </div>
