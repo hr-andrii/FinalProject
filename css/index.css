@@ -31,7 +31,7 @@ header nav .logo a {
 header nav img{
     display: inline-block;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 90%;
 }
 header nav .menu {
@@ -138,7 +138,7 @@ main{
   display: inline-block;
   border: 1px solid #747474;
   border-radius: 8px;
-  box-shadow: inset 0 1px 1px #575555, 0 1px 0 #FFF;
+  /*box-shadow: inset 0 1px 1px #575555, 0 1px 0 #FFF;*/
   background-image: linear-gradient(#BCBCBC, #EBEBEB);
 }
 .form-search:before {
@@ -194,9 +194,20 @@ main .board .filter
     display: inline-block;
     margin-left: 67%;
 }
-main .board .filter img
+main .board .form-search img
 {
-    margin-top: -10px;
+    margin-top: -6px;
+}
+@media (max-width: 10000px)
+{
+    main .board .form-search
+    {
+        left: 67%;
+    }
+    main .board .filter
+    {
+        margin-left: 67%;
+    }
 }
 
 @media (max-width: 1550px)
