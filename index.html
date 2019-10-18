@@ -14,6 +14,9 @@
                 <div class="logo">
                     <a href="index.html">Shadow Guard</a>
                 </div>
+                <img src="img/svg/cart.svg" width="25px" height="25px" alt="filter" data-toggle="modal" data-target="#modalCart" alt="Cart">
+
+            </div>
                 <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
@@ -28,6 +31,7 @@
                 </div>
                 <div class="banner">
                 </div>
+            </div>
             </nav>
         </header>
         <main id="categories">
@@ -117,6 +121,28 @@
 				</li>
 			</ul>
 		</footer>
+        <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="modalCartTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalCartTitle"> Order </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="cart-body">
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="modalFilter" tabindex="-1" role="dialog" aria-labelledby="modalFilterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content">
