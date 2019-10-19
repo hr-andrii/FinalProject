@@ -1,6 +1,6 @@
 const cart = new Cart($('#cartModal'));
 const productList = new ProductList(
-  'products.json',
+  'json/smoke.json',
   $('.products-container'),
   cart
 );

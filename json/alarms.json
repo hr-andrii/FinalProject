@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "brand": "GSM",
+        "model": "System Q2",
+        "image": "pstn-gsm-system-q2.jpg",
+        "description": "Large drone for most critical missions. Can carry load.",
+        "price": 499.99
+    },
+    {
+        "id": "2",
+        "brand": "Kerui",
+        "model": "G18 Start",
+        "image": "kerui-g18-start.jpg",
+        "description": "Small drone. Can fly undetected.",
+        "price": 199.99
+    },
+    {
+        "id": "3",
+        "brand": "GSM",
+        "model": "Alarm JYX-G1",
+        "image": "gsm-alarm-jux-g1.jpg",
+        "description": "Nice-looking drone in blue color. Has built-in HD camera",
+        "price": 249.99
+    },
+    {
+        "id": "4",
+        "brand": "GSM",
+        "model": "10C",
+        "image": "gsn-10c.jpg",
+        "description": "Nice-looking drone in red color",
+        "price": 229.99
+    },
+    {
+        "id": "5",
+        "brand": "GSM",
+        "model": "VAHTER-W7",
+        "image": "gsm-vahter-w7.jpg",
+        "description": "Black gyroboard to match your style",
+        "price": 729.99
+    },
+    {
+        "id": "6",
+        "brand": "GSM",
+        "model": "Wireless GSP",
+        "image": "gsm-wireless-dsp.jpg",
+        "description": "White gyroboard with blue lights",
+        "price": 829.99
+    },
+    {
+        "id": "7",
+        "brand": "GSM",
+        "model": "IS-2",
+        "image": "gsm-is2.jpg",
+        "description": "Best crossover in the World",
+        "price": 99999.99
+    },
+    {
+        "id": "8",
+        "brand": "GSM",
+        "model": "PG_103",
+        "image": "gsm-pg103.png",
+        "description": "Best sports car in the World",
+        "price": 249999.99
+    },
+    {
+        "id": "9",
+        "brand": "GSM",
+        "model": "G10A",
+        "image": "gsm-g10a.jpg",
+        "description": "Best camera in the World",
+        "price": 1500.00
+    },
+    {
+        "id": "10",
+        "brand": "GSM",
+        "model": "Smart 66B",
+        "image": "gsm-smart-66b.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "11",
+        "brand": "GSM",
+        "model": "IS-8",
+        "image": "gsm-is8.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    }
+]

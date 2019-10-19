@@ -82,7 +82,7 @@ header nav .menu a {
 }
 
 header .banner {
-    background-image: url(../img/b_anner.png);
+    background-image: url(../img/main/b_anner.png);
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -559,7 +559,7 @@ footer a.logo i{
 footer a.logo:before{
 	content: '';
 	display: inline-block;
-	background: url('../img/sprite.png') no-repeat -19px -70px;
+	background: url('../img/main/sprite.png') no-repeat -19px -70px;
 	width: 48px;
 	height: 37px;
 	vertical-align: text-top;
@@ -596,7 +596,7 @@ footer > ul > li:hover p{
 footer p:before{
 	content: '';
 	display: inline-block;
-	background: url('../img/sprite.png') no-repeat;
+	background: url('../img/main/sprite.png') no-repeat;
 	width: 16px;
 	height: 18px;
 	margin: 0 12px 0 15px;
