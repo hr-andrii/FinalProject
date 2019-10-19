@@ -18,7 +18,7 @@ class ProductList {
   renderProducts(container, products) {
     let productListDomString = '';
     products
-        .filter( product => product.title.toLowerCase().includes(
+        .filter( product => product.brand.toLowerCase().includes(
                 document.querySelector('.filter').value.toLowerCase()))
         .forEach(product => {
       productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
@@ -26,9 +26,9 @@ class ProductList {
                     <img class="card-img-top" src="img/products/${
                       product.image
                     }"
-                        alt="${product.title}">
+                        alt="${product.model}">
                     <div class="card-body">
-                      <h4 class="card-title">${product.title}</h4>
+                      <h4 class="card-model">${product.brand} ${product.model}</h4>
                       <p class="card-text">${product.description}</p>
                       <button class="btn btn-info" data-toggle="modal"
                         data-target="#productInfoModal" data-id="${
@@ -55,8 +55,8 @@ class ProductList {
       modal
         .find('.modal-body .card-img-top')
         .attr('src', 'img/products/' + product.image)
-        .attr('alt', product.title);
-      modal.find('.modal-body .card-title').text(product.title);
+        .attr('alt', product.model);
+      modal.find('.modal-body .card-model').text(product.model);
       modal.find('.modal-body .card-text').text(product.description);
       modal
         .find('button.buy')

@@ -38,7 +38,7 @@ class Cart {
       const product = productList.getProductById(id);
       total += product.price * this.cart[id];
       cartDomSting += `<div class="row" data-id="${id}">
-                    <div class="col-5">${product.title}</div>
+                    <div class="col-5">${product.brand} (${product.model})</div>
                     <div class="col-3">${product.price}</div>
                     <div class="col-2">${this.cart[id]}</div>
                     <div class="col-1"><button class="btn btn-sm plus">+</button></div>
@@ -76,7 +76,7 @@ class Cart {
     const form = this.cartContainer.find('form')[0];
     if (form.checkValidity()) {
       ev.preventDefault();
-      fetch('order', {
+      fetch('../order.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -84,6 +84,7 @@ class Cart {
         body: JSON.stringify({
           clientName: document.querySelector('#client-name').value,
           clientEmail: document.querySelector('#client-email').value,
+          clientEmail: document.querySelector('#client-number').value,
           cart: this.cart
         })
       })

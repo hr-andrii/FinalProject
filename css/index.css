@@ -31,8 +31,10 @@ header nav .logo a {
 header nav img{
     display: inline-block;
     position: absolute;
-    margin-top: 20px;
     margin-left: 90%;
+}
+#cart-badge{
+    margin-top: 12px;
 }
 header nav .menu {
     display: flex;
@@ -52,6 +54,32 @@ header nav .menu a {
     margin-left: 450%;
     align-items: right;
 }
+.intro {
+    max-width: 400px;
+    margin-top: 150px;
+    text-align: center;
+}
+.card {
+    height: 100%;
+}
+
+.alert {
+    position: fixed;
+    top: 50px;
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
+.nav-link
+{
+    left: 80%;
+    margin-top: 10px;
+    position: absolute;
+}
+.btn {
+    padding: 0.75rem 0.7rem;
+}
+
 header .banner {
     background-image: url(../img/b_anner.png);
     background-size: cover;
@@ -133,54 +161,24 @@ main{
     background-color: white;
     z-index: 1;
 }
-.form-search {
-  position: relative;
-  display: inline-block;
-  border: 1px solid #747474;
-  border-radius: 8px;
-  /*box-shadow: inset 0 1px 1px #575555, 0 1px 0 #FFF;*/
-  background-image: linear-gradient(#BCBCBC, #EBEBEB);
+.filter{
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-top: -15px;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.form-search:before {
-  position: absolute;
-  content: "";
-  top: -5px;
-  right: -5px;
-  bottom: -5px;
-  left: -5px;
-  z-index: -1;
-  border-radius: 5px;
-  background: linear-gradient(#D3D3D3, #CACACA 50%, #A9A9A9 50%, #9B9B9B);
+.btn-primary {
+    color: #fff;
+    background-color: #19253b;
+    border-color: #19253b;
 }
-.form-search:focus-within {
-  box-shadow: inset 0 1px 1px #46575b, 0 1px 0 #FFF;
-  background: linear-gradient(#9CC2CA, #DFECEF);
+.btn-info {
+    color: #fff;
+    background-color: rgb(34, 70, 189);
+    border-color:  rgb(34, 70, 189);
 }
-.form-search input[type="search"] {
-  width: 60px;
-  height: 18px;
-  line-height: 18px;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  padding: 0 0 4px 6px;
-  margin: 0 0 2px 2px;
-  background: transparent;
-  font: 13px Helvetica, Arial, sans-serif;
-  color: #6E7074;
-  text-shadow: 0 1px 0 #FFF;
-  transition: all .2s ease-out;
-}
-.form-search:focus-within input[type="search"],
-.form-search input[type="search"]:focus {
-  width: 160px;
-  color: #25464D;
-}
-.form-search input[type="image"] {
-  padding: 0;
-  vertical-align: bottom;
-}
-
 main .board .catalog
 {
     display: inline-block;

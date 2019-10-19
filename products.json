@@ -1,72 +1,139 @@
 [
     {
         "id": "1",
-        "title": "Large drone",
-        "image": "drone-large.jpg",
+        "brand": "HoneyWell",
+        "model": "H3W2GR1",
+        "image": "honeywell-h3w2gr1.jpg",
         "description": "Large drone for most critical missions. Can carry load.",
         "price": 499.99
     },
     {
         "id": "2",
-        "title": "Small drone",
-        "image": "drone-small.jpg",
+        "brand": "HoneyWell",
+        "model": "H3W2GR2",
+        "image": "honeywell-h3w2gr2.jpg",
         "description": "Small drone. Can fly undetected.",
         "price": 199.99
     },
     {
         "id": "3",
-        "title": "Blue drone",
-        "image": "drone-blue.jpg",
+        "brand": "HoneyWell",
+        "model": "HFD6GR1",
+        "image": "honeywell-hfd6gr1.jpg",
         "description": "Nice-looking drone in blue color. Has built-in HD camera",
         "price": 249.99
     },
     {
         "id": "4",
-        "title": "Red drone",
-        "image": "drone-red.jpg",
+        "brand": "HoneyWell",
+        "model": "HDZ302LIW",
+        "image": "honeywell-hdz302liw.jpg",
         "description": "Nice-looking drone in red color",
         "price": 229.99
     },
     {
         "id": "5",
-        "title": "Black gyroboard",
-        "image": "gyroboard-black.jpg",
+        "brand": "HoneyWell",
+        "model": "HCL2G",
+        "image": "honeywell-hcl2g.jpg",
         "description": "Black gyroboard to match your style",
         "price": 729.99
     },
     {
         "id": "6",
-        "title": "White gyroboard",
-        "image": "gyroboard-white.jpg",
+        "brand": "HoneyWell",
+        "model": "HMBL8GR1",
+        "image": "honeywell-hmbl8gr1.jpg",
         "description": "White gyroboard with blue lights",
         "price": 829.99
     },
     {
         "id": "7",
-        "title": "Tesla Model X",
-        "image": "tesla-x.jpg",
+        "brand": "HoneyWell",
+        "model": "HDZ302LIK",
+        "image": "honeywell-hdz302lik.jpg",
         "description": "Best crossover in the World",
         "price": 99999.99
     },
     {
         "id": "8",
-        "title": "Tesla Roadster",
-        "image": "tesla-roadster.jpg",
+        "brand": "HoneyWell",
+        "model": "HED3PR3",
+        "image": "honeywell-hed3pr3.jpg",
         "description": "Best sports car in the World",
         "price": 249999.99
     },
     {
         "id": "9",
-        "title": "Camera",
-        "image": "logo.png",
+        "brand": "HoneyWell",
+        "model": "HBD3PR1",
+        "image": "honeywell-hbd3pr1.jpg",
         "description": "Best camera in the World",
         "price": 1500.00
     },
     {
         "id": "10",
-        "title": "Cat",
-        "image": "cat.jpg",
+        "brand": "HoneyWell",
+        "model": "HBW2PR1",
+        "image": "honeywell-hbw2pr1.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "11",
+        "brand": "Lorex",
+        "model": "LNZ44P4BW",
+        "image": "lorex-lnz44p4bw.png",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "12",
+        "brand": "Lorex",
+        "model": "LNE8964ABW",
+        "image": "lorex-lne8964abw.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "13",
+        "brand": "Lorex",
+        "model": "LNB9272",
+        "image": "lorex-lnb9272.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "14",
+        "brand": "Lorex",
+        "model": "LNB8963BW",
+        "image": "lorex-lnb8963bw.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "15",
+        "brand": "Lorex",
+        "model": "LND4751AB",
+        "image": "lorex-lnd4751ab.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "16",
+        "brand": "Lorex",
+        "model": "LNB4421",
+        "image": "lorex-lnb4421.jpg",
+        "description": "Sad Cat",
+        "price": 1500.00
+    },
+    {
+        "id": "17",
+        "brand": "Lorex",
+        "model": "LNB2153",
+        "image": "lorex-lnb2153.jpg",
         "description": "Sad Cat",
         "price": 1500.00
     }
+
 ]
