@@ -14,7 +14,10 @@
                 <div class="logo">
                     <a href="index.html">Shadow Guard</a>
                 </div>
-                <img src="img/svg/delivery.svg" width="45px" height="45px" alt="filter" data-toggle="modal" data-target="#modalCart" alt="Cart">
+                <a class="nav-link" href="#cartModal" data-toggle="modal">
+                    <img src="img/svg/delivery.svg" width="45px" height="45px">
+                    <span id="cart-badge" class="badge badge-light"></span>
+                </a>
                 <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
@@ -34,78 +37,14 @@
         </header>
         <main id="categories">
             <div class="board">
-                <p class="catalog">Catalog</p>
-                <form class="form-search" action="/search/" target="_blank">
-                    <input type="hidden" name="searchid" value="808327">
-                    <input type="search" name="text" required placeholder="Search">
-                    <img src="img/svg/filter.svg" width="25px" height="25px" alt="filter" data-toggle="modal" data-target="#modalFilter">
-                    <input type="image" src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png"/>
-                </form>
+                <p id="products" class="catalog">Catalog</p>
+                <input  type="text" class="filter" placeholder="Search"></input>
             </div>
-            <div class="product-list">
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-
-                <article class="product">
-                    <h3 class="name_of_product">Lorex LNB8111-C </h3>
-                    <img src="img/categories/water_indicator.jpg" height="70%" alt="Water indicators">
-                    <button class="bnt_buy" data-toggle="modal" data-target="#modalProductInfo">Information</button>
-                    <button class="bnt_buy" >Add to cart</button>
-                </article>
-            </div>
+            <section>
+                <div class="row products-container">
+                    <!--Products are dynamically generated here-->
+                </div>
+            </section>
         </main>
         <footer id="footer_scroll">
 			<ul>
@@ -143,62 +82,72 @@
 				</li>
 			</ul>
 		</footer>
-        <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="modalCartTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalCartTitle"> Order </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-
-                        <div class="cart-body">
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Confirm</button>
-                    </div>
-                </div>
-            </div>
+            <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img class="card-img-top" src="" alt="">
+              <h4 class="card-title"></h4>
+              <p class="card-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary buy" data-id="id">Buy</button>
+          </div>
         </div>
-        <div class="modal fade" id="modalProductInfo" tabindex="-1" role="dialog" aria-labelledby="modalProductInfoTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalProductInfoTitle"> Product </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="img/categories/water_indicator.jpg" class="card-img-top" alt="Drone Cheerson">
-                        <div class="card-body">
-                            <h5 class="card-title">Lorex LNB8111-C</h5>
-                            <p class="card-text">Brand: Lorex </p>
-                            <p class="card-text">Model: LNB8111 </p>
-                            <p class="card-text">Type: C </p>
-                            <p class="card-text">Lorex by FLIR is proud to introduce this industry-leading 4K (8 megapixel)
-                            IP security camera to their extensive line of consumer security products.
-                            The LNB8111B will leave nothing to question. It will provide the maximum level of detail and clarity available,
-                            not to mention an increased ability to zoom in on distant objects without drastically reducing image quality.
-                            It also has incredible infrared night vision, a wide angle 88° field of view, and a fully weatherproof metal housing.
-                            Whether you are in the market for a new security camera or looking to upgrade,
-                            a 4K security camera from Lorex by FLIR is an ideal solution. </p>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">To order</button>
-                    </div>
+      </div>
+    </div>
+
+    <!-- Modal Cart -->
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Your name:</label>
+                  <input class="form-control col-8" type="text" name="client_name" id="client-name" required>
                 </div>
+                <div class="form-group row">
+                  <label for="client-email" class="col-4 col-form-label">Your email:</label>
+                  <input class="form-control col-8" type="email" name="client_email" id="client-email" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-number" class="col-4 col-form-label">Your number:</label>
+                  <input class="form-control col-8" type="number" name="client_number" id="client-number" required>
+                </div>
+              </form>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary order">Order</button>
+          </div>
         </div>
+      </div>
+    </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script async src="js/smooth-scroll.js"></script>
+        <script async src="js/alert-window.js"></script>
+        <script defer src="js/cart.js"></script>
+        <script defer src="js/product-list.js"></script>
+        <script defer src="js/index.js"></script>
     </body>
 </html>

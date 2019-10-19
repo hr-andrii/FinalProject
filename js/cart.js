@@ -76,7 +76,7 @@ class Cart {
     const form = this.cartContainer.find('form')[0];
     if (form.checkValidity()) {
       ev.preventDefault();
-      fetch('../order.php', {
+      fetch('order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -97,6 +97,7 @@ class Cart {
           this.renderCart();
           window.showAlert('Thank you! ' + responseText);
           this.cartContainer.modal('hide');
+          this.app.post();
         })
         .catch(error => showAlert('There is an error: ' + error, true));
     } else {

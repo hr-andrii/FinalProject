@@ -14,7 +14,10 @@
                 <div class="logo">
                     <a href="index.html">Shadow Guard</a>
                 </div>
-                <img src="img/svg/delivery.svg" width="45px" height="45px" data-toggle="modal" data-target="#modalCart" alt="Cart">
+                <a class="nav-link" href="#cartModal" data-toggle="modal">
+                    <img src="img/svg/delivery.svg" width="45px" height="45px">
+                    <span id="cart-badge" class="badge badge-light"></span>
+                </a>
                 <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
@@ -35,12 +38,7 @@
         <main id="categories">
             <div class="board">
                 <p class="catalog">Catalog</p>
-                <form class="form-search" action="/search/" target="_blank">
-                    <input type="hidden" name="searchid" value="808327">
-                    <input type="search" name="text" required placeholder="Search">
-                    <img src="img/svg/filter.svg" width="25px" height="25px" alt="filter" data-toggle="modal" data-target="#modalFilter">
-                    <input type="image" src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png"/>
-                </form>
+
             </div>
             <div class="product-list">
                 <a href="cameras.html">
@@ -117,52 +115,50 @@
 				</li>
 			</ul>
 		</footer>
-        <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="modalCartTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modalCartTitle"> Order </h5>
+                        <h5 class="modal-title" id="cartLabel">Cart</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-
-                        <div class="cart-body">
-
+                        <div class="cart-product-list-container"></div>
+                            <hr>
+                        <div class="container">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="client-name" class="col-4 col-form-label">Your name:</label>
+                                    <input class="form-control col-8" type="text" name="client_name" id="client-name" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="client-email" class="col-4 col-form-label">Your email:</label>
+                                    <input class="form-control col-8" type="email" name="client_email" id="client-email" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="client-number" class="col-4 col-form-label">Your number:</label>
+                                    <input class="form-control col-8" type="number" name="client_number" id="client-number" required>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Confirm</button>
+                        <button class="btn btn-primary order">Order</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="modalFilter" tabindex="-1" role="dialog" aria-labelledby="modalFilterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modalFilterTitle"> Filter </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-
-                        <div class="filter-body">
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Confirm</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script async src="js/smooth-scroll.js"></script>
+        <script async src="js/alert-window.js"></script>
+        <script defer src="js/cart.js"></script>
+        <script defer src="js/product-list.js"></script>
+        <script defer src="js/index.js"></script>
     </body>
 </html>
