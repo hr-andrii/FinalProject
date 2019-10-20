@@ -461,7 +461,7 @@ transition-duration: .25s;
 /*--------------------------------             FOOTER             --------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 footer{
-	height: 665px;
+	height: 630px;
 	color:#ccc;
 	font-size:12px;
 	position: relative;
@@ -492,7 +492,7 @@ footer > ul{
         margin-left:-480px;
     }
     footer{
-	height: 265px;
+	height: 240px;
     }
 }
 @media (min-width: 750px) {
