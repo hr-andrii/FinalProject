@@ -154,7 +154,7 @@ article.product .name_of_product{
     font-family: Century;
     font-size: 20px;
     color: white;
-    height: 60px;
+    height: 65px;
     margin-bottom: 20px;
     margin-top: -25px;
 }
@@ -166,7 +166,6 @@ main{
     border-radius: 15px;
     width: 150px;
     height: 30px;
-    margin-top: -15px;
     position: relative;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -192,11 +191,9 @@ main .board .filter
 {
     display: inline-block;
     margin-left: 67%;
+    margin-top: -10px;
 }
-main .board .form-search img
-{
-    margin-top: -6px;
-}
+
 @media (max-width: 10000px)
 {
     main .board .form-search
