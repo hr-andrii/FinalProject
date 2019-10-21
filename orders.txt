@@ -1,0 +1,2 @@
+{"clientName":"Andrii","clientEmail":"380662488221","cart":{"4":1}}
+{"clientName":"Andrii","clientEmail":"hr.andriygtr@gmail.com","clientNumber":"380662488221","cart":{"2":1}}
