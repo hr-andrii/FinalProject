@@ -54,7 +54,7 @@ class ProductList {
       const modal = $('#productInfoModal');
       modal
         .find('.modal-body .card-img-top')
-        .attr('src', 'img/alarms/' + product.image)
+        .attr('src', 'img/products/alarms/' + product.image)
         .attr('alt', product.model);
       modal.find('.modal-body .card-model').text(product.model);
       modal.find('.modal-body .card-text').text(product.description);
