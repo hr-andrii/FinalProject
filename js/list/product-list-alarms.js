@@ -10,6 +10,7 @@ class ProductList {
         this.addEventListeners();
         document.querySelector('.filter').addEventListener('keydown',
             () => this.renderProducts(renderContainer, products));
+
       });
   }
   getProductById(id) {
@@ -21,7 +22,8 @@ class ProductList {
         .filter( product => product.brand.toLowerCase().includes(
                 document.querySelector('.filter').value.toLowerCase()))
         .forEach(product => {
-      productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            if(product.category === 2){
+        productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                   <div class="card product">
                     <img class="card-img-top" src="img/products/alarms/${
                       product.image
@@ -43,6 +45,7 @@ class ProductList {
                     </div>
                   </div>
                 </div>`;
+            }
     });
     container.html(productListDomString);
   }

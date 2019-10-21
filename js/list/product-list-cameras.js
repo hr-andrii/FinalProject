@@ -21,6 +21,7 @@ class ProductList {
         .filter( product => product.brand.toLowerCase().includes(
                 document.querySelector('.filter').value.toLowerCase()))
         .forEach(product => {
+            if(product.category === 1){
       productListDomString += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                   <div class="card product">
                     <img class="card-img-top" src="img/products/cameras/${
@@ -43,6 +44,7 @@ class ProductList {
                     </div>
                   </div>
                 </div>`;
+            }
     });
     container.html(productListDomString);
   }

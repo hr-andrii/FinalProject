@@ -1,0 +1,526 @@
+[
+    {
+        "category": 1,
+        "id": "1",
+        "brand": "HoneyWell",
+        "model": "H3W2GR1",
+        "image": "honeywell-h3w2gr1.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 199.99
+    },
+    {
+        "category": 1,
+        "id": "2",
+        "brand": "HoneyWell",
+        "model": "H3W2GR2",
+        "image": "honeywell-h3w2gr2.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 189.99
+    },
+    {
+        "category": 1,
+        "id": "3",
+        "brand": "HoneyWell",
+        "model": "HFD6GR1",
+        "image": "honeywell-hfd6gr1.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 229.99
+    },
+    {
+        "category": 1,
+        "id": "4",
+        "brand": "HoneyWell",
+        "model": "HDZ302LIW",
+        "image": "honeywell-hdz302liw.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 239.99
+    },
+    {
+        "category": 1,
+        "id": "5",
+        "brand": "HoneyWell",
+        "model": "HCL2G",
+        "image": "honeywell-hcl2g.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 159.99
+    },
+    {
+        "category": 1,
+        "id": "6",
+        "brand": "HoneyWell",
+        "model": "HMBL8GR1",
+        "image": "honeywell-hmbl8gr1.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 259.99
+    },
+    {
+        "category": 1,
+        "id": "7",
+        "brand": "HoneyWell",
+        "model": "HDZ302LIK",
+        "image": "honeywell-hdz302lik.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 99.99
+    },
+    {
+        "category": 1,
+        "id": "8",
+        "brand": "HoneyWell",
+        "model": "HED3PR3",
+        "image": "honeywell-hed3pr3.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 119.99
+    },
+    {
+        "category": 1,
+        "id": "9",
+        "brand": "HoneyWell",
+        "model": "HBD3PR1",
+        "image": "honeywell-hbd3pr1.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 130.00
+    },
+    {
+        "category": 1,
+        "id": "10",
+        "brand": "HoneyWell",
+        "model": "HBW2PR1",
+        "image": "honeywell-hbw2pr1.jpg",
+        "description": "Honeywell’s latest IP cameras feature a simplified user interface with ONVIF integration to recording devices with new technology",
+        "price": 140.00
+    },
+    {
+        "category": 1,
+        "id": "11",
+        "brand": "Lorex",
+        "model": "LNZ44P4BW",
+        "image": "lorex-lnz44p4bw.png",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 150.00
+    },
+    {
+        "category": 1,
+        "id": "12",
+        "brand": "Lorex",
+        "model": "LNE8964ABW",
+        "image": "lorex-lne8964abw.jpg",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 199.00
+    },
+    {
+        "category": 1,
+        "id": "13",
+        "brand": "Lorex",
+        "model": "LNB9272",
+        "image": "lorex-lnb9272.jpg",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 229.99
+    },
+    {
+        "category": 1,
+        "id": "14",
+        "brand": "Lorex",
+        "model": "LNB8963BW",
+        "image": "lorex-lnb8963bw.jpg",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 129.99
+    },
+    {
+        "category": 1,
+        "id": "15",
+        "brand": "Lorex",
+        "model": "LND4751AB",
+        "image": "lorex-lnd4751ab.jpg",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 290.00
+    },
+    {
+        "category": 1,
+        "id": "16",
+        "brand": "Lorex",
+        "model": "LNB4421",
+        "image": "lorex-lnb4421.jpg",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 319.99
+    },
+    {
+        "category": 1,
+        "id": "17",
+        "brand": "Lorex",
+        "model": "LNB2153",
+        "image": "lorex-lnb2153.jpg",
+        "description": "Keep watch over the things that matter most with this professional-grade security camera system from Lorex. This system features six 4K (8MP) Ultra HD cameras",
+        "price": 289.99
+    },
+
+    {
+        "category": 2,
+        "id": "101",
+        "brand": "GSM",
+        "model": "System Q2",
+        "image": "pstn-gsm-system-q2.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 219.99
+    },
+    {
+        "category": 2,
+        "id": "102",
+        "brand": "Kerui",
+        "model": "G18 Start",
+        "image": "kerui-g18-start.jpg",
+        "description": "The new intelligent alarm system Kerui alarm G18 Start will allow you to control the security of your home, apartment, office, cottage, shop.",
+        "price": 199.99
+    },
+    {
+        "category": 2,
+        "id": "103",
+        "brand": "GSM",
+        "model": "Alarm JYX-G1",
+        "image": "gsm-alarm-jux-g1.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 249.99
+    },
+    {
+        "category": 2,
+        "id": "104",
+        "brand": "GSM",
+        "model": "10C",
+        "image": "gsn-10c.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 229.99
+    },
+    {
+        "category": 2,
+        "id": "105",
+        "brand": "GSM",
+        "model": "VAHTER-W7",
+        "image": "gsm-vahter-w7.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 129.99
+    },
+    {
+        "category": 2,
+        "id": "106",
+        "brand": "GSM",
+        "model": "Wireless GSP",
+        "image": "gsm-wireless-dsp.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 309.99
+    },
+    {
+        "category": 2,
+        "id": "107",
+        "brand": "GSM",
+        "model": "IS-2",
+        "image": "gsm-is2.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 99.99
+    },
+    {
+        "category": 2,
+        "id": "108",
+        "brand": "GSM",
+        "model": "PG_103",
+        "image": "gsm-pg103.png",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 249.99
+    },
+    {
+        "category": 2,
+        "id": "109",
+        "brand": "GSM",
+        "model": "G10A",
+        "image": "gsm-g10a.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 150.00
+    },
+    {
+        "category": 2,
+        "id": "110",
+        "brand": "GSM",
+        "model": "Smart 66B",
+        "image": "gsm-smart-66b.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 239.00
+    },
+    {
+        "category": 2,
+        "id": "111",
+        "brand": "GSM",
+        "model": "IS-8",
+        "image": "gsm-is8.jpg",
+        "description": "GSM alarm systems can be installed in any premises - houses, apartments, office premises, hotels, summer cottages, garages and much more.",
+        "price": 199.99
+    },
+    {
+        "category": 3,
+        "id": "201",
+        "brand": "Sentek",
+        "model": "Ce-2",
+        "image": "sentek-ce-2wire.jpg",
+        "description": "Ce, 2-Wire Addressable Smoke Alarm with Remote LED Output As119.",
+        "price": 12
+    },
+    {
+        "category": 3,
+        "id": "202",
+        "brand": "Sentek",
+        "model": "Ce",
+        "image": "sentek-ce.jpg",
+        "description": "Ce, Addressable 2-Wire Photoelectric Smoke Detector Input: 10VDC-33VDC.",
+        "price": 15
+    },
+    {
+        "category": 3,
+        "id": "203",
+        "brand": "Sentek",
+        "model": "10",
+        "image": "sentek-10.jpg",
+        "description": "10 Years Battery Operated Standalone Heat Detector for Home.",
+        "price": 8
+    },
+    {
+        "category": 3,
+        "id": "204",
+        "brand": "Sentek",
+        "model": "9V",
+        "image": "sentek-9v.jpg",
+        "description": "En14604 Stand-Alone Photoelectric 9V Battery Operated Smoke Detector.",
+        "price": 13
+    },
+    {
+        "category": 3,
+        "id": "205",
+        "brand": "Sentek",
+        "model": "Hot Sell",
+        "image": "sentek-hot-sell.jpg",
+        "description": "Sentek Hot Sell Photoelectric Battery Operated Mini Smoke Detector.",
+        "price": 25
+    },
+    {
+        "category": 3,
+        "id": "206",
+        "brand": "Sentek",
+        "model": "Ce-2",
+        "image": "sentek-ce-2wire.jpg",
+        "description": "Ce, 2-Wire Addressable Smoke Alarm with Remote LED Output As119.",
+        "price": 6
+    },
+    {
+        "category": 3,
+        "id": "207",
+        "brand": "Sentek",
+        "model": "Ce",
+        "image": "sentek-ce.jpg",
+        "description": "Ce, Addressable 2-Wire Photoelectric Smoke Detector Input: 10VDC-33VDC.",
+        "price": 10
+    },
+    {
+        "category": 3,
+        "id": "208",
+        "brand": "Sentek",
+        "model": "10",
+        "image": "sentek-10.jpg",
+        "description": "10 Years Battery Operated Standalone Heat Detector for Home.",
+        "price": 22
+    },
+    {
+        "category": 3,
+        "id": "209",
+        "brand": "Sentek",
+        "model": "9V",
+        "image": "sentek-9v.jpg",
+        "description": "En14604 Stand-Alone Photoelectric 9V Battery Operated Smoke Detector.",
+        "price": 9
+    },
+    {
+        "category": 3,
+        "id": "210",
+        "brand": "Sentek",
+        "model": "Hot Sell",
+        "image": "sentek-hot-sell.jpg",
+        "description": "Sentek Hot Sell Photoelectric Battery Operated Mini Smoke Detector.",
+        "price": 18
+    },
+    {
+        "category": 4,
+        "id": "301",
+        "brand": "Suns",
+        "model": "IL-4E Green",
+        "image": "suns-il4e.jpg",
+        "description": "Suns IL4E-240E-G-U6 LED 1/2 Green Indicator Light Raised 240V Wire Ideal.",
+        "price": 6
+    },
+    {
+        "category": 4,
+        "id": "302",
+        "brand": "Suns",
+        "model": "IL-4E Red",
+        "image": "suns-il4e-red.jpg",
+        "description": "SUNS IL4E-120E-R-U6 LED 1/2 Red Indicator Light Raised 120V Wire Ideal.",
+        "price": 6.99
+    },
+    {
+        "category": 4,
+        "id": "303",
+        "brand": "Guaranteed",
+        "model": "ABB CBK SK 616 003-A",
+        "image": "guaranteed.jpg",
+        "description": "Guaranteed-ABB-A Amber Indicator Light with Base.",
+        "price": 15.99
+    },
+    {
+        "category": 4,
+        "id": "304",
+        "brand": "Eaton",
+        "model": "MS180",
+        "image": "eaton-ms.jpg",
+        "description": "EATON Lighting MS180 Replacement Motion Security Floodlight Sensor",
+        "price": 15
+    },
+    {
+        "category": 4,
+        "id": "305",
+        "brand": "Heath Zenith ",
+        "model": "SL-5407-BZ",
+        "image": "zenith.jpg",
+        "description": "Heath Zenith SL-5407-BZ 180-Degree Replacement Motion Sensor",
+        "price": 16
+    },
+    {
+        "category": 4,
+        "id": "306",
+        "brand": "Lithonia",
+        "model": "OMS DDB M6",
+        "image": "lithonia.jpg",
+        "description": "Lithonia Lighting OMS 1000 120 DDB M6 180-Degree Detection Zone",
+        "price": 23
+    },
+    {
+        "category": 4,
+        "id": "307",
+        "brand": "Suns",
+        "model": "IL-4E Green",
+        "image": "suns-il4e.jpg",
+        "description": "Suns IL4E-240E-G-U6 LED 1/2 Green Indicator Light Raised 240V Wire Ideal.",
+        "price": 6
+    },
+    {
+        "category": 4,
+        "id": "308",
+        "brand": "Suns",
+        "model": "IL-4E Red",
+        "image": "suns-il4e-red.jpg",
+        "description": "SUNS IL4E-120E-R-U6 LED 1/2 Red Indicator Light Raised 120V Wire Ideal.",
+        "price": 6.99
+    },
+    {
+        "category": 4,
+        "id": "309",
+        "brand": "Guaranteed",
+        "model": "ABB CBK SK 616 003-A",
+        "image": "guaranteed.jpg",
+        "description": "Guaranteed-ABB-A Amber Indicator Light with Base.",
+        "price": 15.99
+    },
+    {
+        "category": 4,
+        "id": "310",
+        "brand": "Eaton",
+        "model": "MS180",
+        "image": "eaton-ms.jpg",
+        "description": "EATON Lighting MS180 Replacement Motion Security Floodlight Sensor",
+        "price": 15
+    },
+    {
+        "category": 4,
+        "id": "311",
+        "brand": "Heath Zenith ",
+        "model": "SL-5407-BZ",
+        "image": "zenith.jpg",
+        "description": "Heath Zenith SL-5407-BZ 180-Degree Replacement Motion Sensor",
+        "price": 16
+    },
+    {
+        "category": 4,
+        "id": "312",
+        "brand": "Lithonia",
+        "model": "OMS DDB M6",
+        "image": "lithonia.jpg",
+        "description": "Lithonia Lighting OMS 1000 120 DDB M6 180-Degree Detection Zone",
+        "price": 23
+    },
+     {
+        "category": 5,
+        "id": "401",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "402",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "403",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "404",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "405",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "406",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "407",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    },
+    {
+        "category": 5,
+        "id": "408",
+        "brand": "D-link",
+        "model": "Wifi",
+        "image": "d-link.png",
+        "description": "Dlink Wifi water sensor is like a Dropcam for leaks.",
+        "price": 53.99
+    }
+
+]
